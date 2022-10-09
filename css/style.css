@@ -1,0 +1,134 @@
+body {
+    background-color: blue;
+    margin: 0;
+}
+
+header {
+    height: 65vh;
+    background-image: url(../img/pic3.jpeg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    color: blue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.dynabook {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 50vw;
+}
+
+.dynabook h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.dynabook #content {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+
+.dynabook img {
+    max-width: 300px;
+}
+
+.dynabook #text {
+    padding-left: 10px;
+    color: black;
+}
+
+.kiddycomp {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 50vw;
+}
+
+.kiddycomp h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.kiddycomp #content {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+
+.kiddycomp img {
+    max-width: 300px;
+}
+
+.kiddycomp #text {
+    padding-left: 10px;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#instagram {
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#github {
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#showcase {
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* MOBILE */
+
+@media (min-width: 320px) and (max-width: 481px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dynabook #content {
+        flex-direction: column;
+    }
+
+    .kiddycomp #content {
+        flex-direction: column;
+    }
+
+    #links {
+        flex-direction: column;
+    }
+}
